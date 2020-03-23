@@ -8,6 +8,7 @@
 
 import cv2
 import numpy as np
+import os, os.path
 
 
 image = cv2.imread('./digits.png')
@@ -57,8 +58,7 @@ print ("Accuracy is = %.2f" % accuracy + "%" )
 # In[7]:
 
 
-import cv2
-import numpy as np
+
 
 def x_cord_contour (contour):
     
@@ -140,8 +140,6 @@ def resize_to_pixel (dimensions,image ):
 # In[29]:
 
 
-import cv2
-import numpy as np
 
 def recogniseDigits ( image ):
     #image = cv2.imread('./test8.jfif')
@@ -213,8 +211,8 @@ def recogniseDigits ( image ):
 
 
 # import the necessary packages
-import cv2
-import os, os.path
+
+
  
 
  
